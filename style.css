@@ -1,11 +1,12 @@
 .mybg{
     background-color: #044556;
 }
-.imgsize{
-    width: 10%;
+.cooperation-image{
+    width: 100%;
 }
-@media(min-width: 768px){
+@media(min-width: 10px){
     .news-input{
-        width: 50%;
+        width: 10%;
     }
 }
+
