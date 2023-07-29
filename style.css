@@ -12,3 +12,45 @@
 img .ideas{
     width: 20%;
 }
+.colbg{
+  background-color: #dfdfdf;
+}
+.accordion-item {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-button {
+    background-color: #f8f9fa;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-button:hover {
+    background-color: #e2e6ea;
+  }
+  
+  .accordion-button.collapsed {
+    background-color: #fff;
+  }
+  
+  .accordion-body {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: -1px;
+    transition: max-height 0.3s ease;
+    max-height: 0;
+    overflow: hidden;
+  }
+  
+  .accordion-body.show {
+    max-height: 500px; /* Adjust this value to show the entire answer */
+  }
