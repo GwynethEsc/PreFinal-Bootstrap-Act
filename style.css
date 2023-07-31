@@ -1,19 +1,19 @@
+.navbar{
+  background: #044556;
+}
 .mybg{
     background-color: #044556;
+
 }
 .cooperation-image{
     width: 100%;
 }
-@media(min-width: 10px){
-    .news-input{
-        width: 10%;
-    }
-}
+
 img .ideas{
     width: 20%;
 }
 .colbg{
-  background-color: #dfdfdf;
+  background-color: #eeeeee;
 }
 .accordion-item {
     margin-bottom: 10px;
@@ -54,3 +54,20 @@ img .ideas{
   .accordion-body.show {
     max-height: 500px; /* Adjust this value to show the entire answer */
   }
+  .card-bodys{
+    background: white;
+  }
+  .card-titles{
+    color: black;
+  }
+  .txt{
+    color: black;
+    font-size: 90%;
+  }
+.card-bodys{
+  color: black;
+}
+.footer{
+  width: 100%;
+  height: 100%;
+}
